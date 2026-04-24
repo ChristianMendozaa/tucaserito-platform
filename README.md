@@ -106,19 +106,10 @@ flowchart TD
 
 | Category | Technology |
 |---|---|
-| **Frontend** | Next.js 16.1.6 · React 19.2.4 · TypeScript |
-| **Frontend** | Google Identity Services (browser-side OAuth Sign-In) |
-| **Frontend** | HttpOnly cookies · security headers · CORS proxy pattern |
-| **Backend** | FastAPI · Uvicorn · Python 3.11 |
-| **Backend** | Pydantic · python-dotenv · SlowAPI (rate limiting) |
-| **Backend** | python-jose (JWT signing and verification) |
-| **AI Models** | Anthropic Claude (script generation via Anthropic SDK) |
-| **AI Models** | Google Imagen 2 via Vertex AI (product image enhancement) |
-| **AI Models** | Google Veo 3.1 Fast via Vertex AI — `veo-3.1-fast-generate-001` (video generation) |
-| **Infrastructure** | Google Cloud Firestore (user records and video job tracking) |
-| **Infrastructure** | Google Cloud Storage (rendered video storage and signed URL delivery) |
-| **Infrastructure** | Google Cloud Platform — Vertex AI · service accounts · IAM |
-| **Infrastructure** | Vercel (serverless deployment for all four services) |
+| **Frontend** | Next.js 16.1.6 · React 19.2.4 · TypeScript<br>Google Identity Services (browser-side OAuth Sign-In)<br>HttpOnly cookies · security headers · CORS proxy pattern |
+| **Backend** | FastAPI · Uvicorn · Python 3.11<br>Pydantic · python-dotenv · SlowAPI (rate limiting)<br>python-jose (JWT signing and verification) |
+| **AI Models** | Anthropic Claude (script generation via Anthropic SDK)<br>Google Imagen 2 via Vertex AI (product image enhancement)<br>Google Veo 3.1 Fast via Vertex AI — `veo-3.1-fast-generate-001` (video generation) |
+| **Infrastructure** | Google Cloud Firestore (user records and video job tracking)<br>Google Cloud Storage (rendered video storage and signed URL delivery)<br>Google Cloud Platform — Vertex AI · service accounts · IAM<br>Vercel (serverless deployment for all four services) |
 
 ---
 
